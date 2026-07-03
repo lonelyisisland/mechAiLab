@@ -1,0 +1,60 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Python build
+build/
+dist/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Temporary
+*.tmp
+*.bak
+
+# Environment variables
+.env
+
+# Data
+data/raw/
+data/processed/
+
+# Generated figures
+outputs/
+results/
+
+# Model checkpoints
+checkpoints/
+models/
+
+# Cache
+.cache/
+
+# Profiling
+.prof
