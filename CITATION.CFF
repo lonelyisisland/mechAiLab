@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use mechAiLab in your research, please cite this repository."
+
+title: "mechAiLab: An Open Research Platform for Computational Mechanics, Materials Characterization and Physics-Guided Machine Learning"
+
+type: software
+
+authors:
+  - family-names: "Paturi"
+    given-names: "Mythili"
+    orcid: "https://orcid.org/0009-0001-5789-1452"
+
+repository-code: "https://github.com/<your-username>/mechAiLab"
+
+abstract: >
+  mechAiLab is an open-source research platform for computational mechanics,
+  structural materials, materials characterization, and physics-guided
+  machine learning. The repository provides reproducible implementations of
+  classical mechanics models, benchmark machine learning methods, curated
+  open datasets, and educational resources for fatigue, fracture, creep,
+  constitutive modeling, and microstructure-property relationships.
+
+license: MIT
+
+keywords:
+  - computational mechanics
+  - materials science
+  - fatigue
+  - fracture mechanics
+  - creep
+  - constitutive modeling
+  - composite materials
+  - materials characterization
+  - machine learning
+  - scientific machine learning
+  - materials informatics
+
+version: 0.1.0
+
+date-released: 2026-07-03
