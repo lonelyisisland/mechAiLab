@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mechAiLab"
+version = "0.1.0"
+description = "An Open Research Platform for Computational Mechanics, Materials Characterization and Physics-Guided Machine Learning"
+
+readme = "README.md"
+
+requires-python = ">=3.10"
+
+license = {text = "MIT"}
+
+authors = [
+    {name = "Mythili Paturi"}
+]
+
+keywords = [
+    "materials",
+    "mechanics",
+    "fatigue",
+    "fracture",
+    "creep",
+    "materials science",
+    "machine learning",
+    "scientific computing"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Physics"
+]
+
+dependencies = [
+    "numpy",
+    "scipy",
+    "pandas",
+    "matplotlib",
+    "plotly",
+    "scikit-learn",
+    "jupyter",
+    "tqdm",
+    "openpyxl",
+    "h5py",
+    "pyyaml",
+    "requests"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
